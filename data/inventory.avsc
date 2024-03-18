@@ -1,0 +1,54 @@
+{
+    "type": "record",
+    "name": "inventory",
+    "fields": [
+        {
+            "name": "ItemId",
+            "type": "string"
+        },
+        {
+            "name": "category",
+            "type": "string"
+        },
+        {
+            "name": "leadTime",
+            "type": "int"
+        },
+        {
+            "name": "configuration",
+            "type": "string"
+        },
+        {
+            "name": "description",
+            "type": "string"
+        },
+        {
+            "name": "channelId",
+            "type": "int"
+        },
+        {
+            "name": "productId",
+            "type": "int"
+        },
+        {
+            "name": "productName",
+            "type": "string"
+        },
+        {
+            "name": "demandWeekStartDate",
+            "type": "string"
+        },
+        {
+            "name": "versionWeekStartDate",
+            "type": "string"
+        },
+        {
+            "name": "forecastQuantity",
+            "type": "int"
+        },
+        {
+            "name": "supplyChainType",
+            "type": "string"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "type": "record",
+    "name": "transaction",
+    "fields": [
+        {
+            "name": "invoiceNo",
+            "type": "int"
+        },
+        {
+            "name": "stockCode",
+            "type": "int"
+        },
+        {
+            "name": "quantity",
+            "type": "int"
+        },
+        {
+            "name": "invoiceDate",
+            "type": "string"
+        },
+        {
+            "name": "unitPrice",
+            "type": "double"
+        },
+        {
+            "name": "unitTax",
+            "type": "double"
+        },
+        {
+            "name": "customerID",
+            "type": "int"
+        },
+        {
+            "name": "country",
+            "type": "string"
+        }
+    ]
+}

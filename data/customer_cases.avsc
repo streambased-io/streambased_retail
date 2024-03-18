@@ -1,0 +1,34 @@
+{
+    "type": "record",
+    "name": "case",
+    "fields": [
+        {
+            "name": "caseId",
+            "type": "string"
+        },
+        {
+            "name": "initiationTime",
+            "type": "string"
+        },
+        {
+            "name": "customerId",
+            "type": "int"
+        },
+        {
+            "name": "channel",
+            "type": "string"
+        },
+        {
+            "name": "reason",
+            "type": "string"
+        },
+        {
+            "name": "agentMins",
+            "type": "int"
+        },
+        {
+            "name": "customerMins",
+            "type": "int"
+        }
+    ]
+}
